@@ -63,30 +63,30 @@
 			
 			<div class="row mt-4 mx-4">
 				
-				<!--All circles were given strict h,y to make them even-->
-				<div class="col-6 col-md-3 my-3 ">
+				<!--All circles were given strict h,y to make them even, justified to center for circles to be centered
+				in their divs. applies to all four circles-->
+				<div class="col-6 col-md-3 my-3 d-flex justify-content-center">
 					<span class="d-flex align-items-center justify-content-center circle
 					badge border border-4 border-white rounded-circle text-white py-3 fs-2"
 					style="background-color: #E6563B;">
 						Design
 					</span>
 				</div>
-				
-				<div class="col-6 col-md-3 my-3">
+				<div class="col-6 col-md-3 my-3 d-flex justify-content-center">
 					<span class="d-flex align-items-center justify-content-center circle
 					badge border border-4 border-white rounded-circle text-white py-3 fs-2"
 					style="background-color: #EB9C39;">
 						Develop
 					</span>
 				</div>
-				<div class="col-6 col-md-3 my-3">
+				<div class="col-6 col-md-3 my-3 d-flex justify-content-center">
 					<span class="d-flex align-items-center justify-content-center circle
 					badge border border-4 border-white rounded-circle text-white  py-3 fs-2"
 					style="background-color: #7CB06C">
 						Support
 					</span>
 				</div>
-				<div class="col-6 col-md-3 my-3 ">
+				<div class="col-6 col-md-3 my-3 d-flex justify-content-center">
 					<span class="d-flex align-items-center justify-content-center circle
 					badge border border-4 border-white rounded-circle text-white  py-3 fs-2"
 					style="background-color: #01ABA9">
@@ -96,13 +96,24 @@
 			</div>
 			<hr class="d-none d-md-flex mx-5 my-5">
 		</header>
+
+		<!-- Selected work container: -->
 		<div class="container">
 			<p class="text-center pt-4">Selected Work</p>
+
+			<!-- Row containing the 4 photos and text/circles underneath  -->
 			<div class="row">
 				<div class="col-12 col-md-6">
+
+					<!-- image with slightly darker gray border -->
 					<div class="img-border"><img src="assets/images/apple-ipad.jpg"></div>
+
+					<!-- creating flex div for text/circles under img to be separated -->
 					<div class="d-flex justify-content-between align-items-center mx-1">
 						<div>Featured Content</div>
+
+						<!-- flex container containing the four small circles. they have their own class edited in
+						 custom.css file to keep them circles-->
 						<div class="d-flex">
 							<div class="d-flex align-items-center justify-content-center small-circle
 							rounded-circle fs-5 mx-1"
@@ -153,7 +164,6 @@
 								H
 							</div>
 						</div>
-
 					</div>
 				</div>
 				<div class="col-12 col-md-6">
@@ -182,7 +192,6 @@
 								H
 							</div>
 						</div>
-
 					</div>
 				</div>
 				<div class="col-12 col-md-6">
