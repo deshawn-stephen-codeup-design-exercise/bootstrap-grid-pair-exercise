@@ -19,6 +19,8 @@ header{
 .small-circle {
     height: 1.5em;
     width: 1.5em;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
 }
 
 img {
