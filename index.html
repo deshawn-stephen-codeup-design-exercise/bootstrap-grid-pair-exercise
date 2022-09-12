@@ -20,11 +20,10 @@
 	style="background-color: #F0F0F0">
 	
 	 
-		<nav class="navbar navbar-expand-lg sticky-top w-100">
 		<nav class="navbar navbar-expand-lg w-100 ">
 			<div class="d-flex justify-content-between container-fluid">
 				<a class="nav-item d-flex justify-content-start"href="#">
-					<img src="assets/logo.png" style="width:3em;" alt="">
+					<img src="assets/logo.png" style="width: 3em;" alt="">
 				</a>
 				
 			<!--Code design only set to display once screen is 992px and above-->
@@ -98,9 +97,11 @@
 			<hr class="d-none d-md-flex mx-5 my-5">
 		</header>
 
-		<!-- Selected work container: -->
-		<div class="container">
-			<p class="text-center pt-4">Selected Work</p>
+		<div class="row">
+			
+			<!-- Selected work container: -->
+			<div id="selected-work" name="selected-work"class="container col-12 col-lg-7  px-5">
+			<p class="text-center pt-1 pb-5 mb-5">Selected Work</p>
 
 			<!-- Row containing the 4 photos and text/circles underneath  -->
 			<div class="row">
@@ -225,7 +226,39 @@
 				</div>
 			</div>
 		</div>
-
+			
+			<!--The last Container-->
+			<div id="the-last" class="container d-none d-lg-block col-lg-4 col-xl-5 px-3 pt-1">
+				<p class="text-center mb-4 pb-3">THE LAST</p>
+				
+				<div class="row pb-4">
+					
+					<img class="col-lg-3" src="assets/images/mobile-phone.jpg" alt="">
+					<p class="col anton fs-2">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
+					
+				</div>
+				
+				<div class="row py-4">
+					
+					<img class="col-lg-3" src="assets/images/head.jpg" alt="">
+					<p class="col anton fs-2">NIBBLER AWESOME WEBSITE TESTING</p>
+					
+				</div>
+				
+				<div class="row py-4">
+					
+					<img class="col-lg-3" src="assets/images/ipad.jpg" alt="">
+					<p class="col anton fs-2">HOW TO GET GOOGLE TO LIKE YOU</p>
+					
+				</div>
+				
+				<p class="pt-4">LAST TWEET</p>
+				<p class="fs-4" >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				   Aliquid aperiam beatae eius eligendi expedita nam nobis quam
+				   rem temporibus voluptas. Cum delectus neque possimus soluta.</pi>
+				
+			</div>
+		</div>
 
 
 
@@ -233,4 +266,6 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 	</body>
+
+	
 </html>

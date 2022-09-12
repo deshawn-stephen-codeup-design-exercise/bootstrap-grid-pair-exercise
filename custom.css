@@ -23,6 +23,11 @@ header{
     font-weight: 400;
 }
 
+.anton{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+
+}
 img {
     width: 100%;
     /*object-fit: cover;*/
