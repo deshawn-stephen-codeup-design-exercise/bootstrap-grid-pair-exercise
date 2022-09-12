@@ -1,10 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+}
+header{
     font-family: 'Anton', sans-serif;
     font-weight: 400;
 }
 
+
 .circle{
     height: 5em;
     width: 5em;
+}
+
+.small-circle {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+img {
+    width: 100%;
+    /*object-fit: cover;*/
+}
+
+.img-border {
+    border: .5em solid #e6e6e6;
 }
