@@ -17,8 +17,8 @@ header{
 }
 
 .small-circle {
-    height: 1.5em;
-    width: 1.5em;
+    height: 1.25em;
+    width: 1.25em;
     font-family: 'Anton', sans-serif;
     font-weight: 400;
 }
@@ -30,6 +30,7 @@ header{
 }
 img {
     width: 100%;
+    align-self: center;
     /*object-fit: cover;*/
 }
 
