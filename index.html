@@ -16,78 +16,83 @@
 	
 </head>
 
-	<body class="container w-100 h-100 "
-	style="background-color: #F0F0F0">
-	
-	 
-		<nav class="navbar navbar-expand-lg w-100 ">
+	<body class="container w-100 h-100">
+		
+		<nav id="main-navbar" class="navbar navbar-expand-lg w-100 ">
+			
 			<div class="d-flex justify-content-between container-fluid">
-				<a class="nav-item d-flex justify-content-start"href="#">
+			 
+				<a id="main-logo-link" class="nav-item d-flex justify-content-start" href="index.html">
 					<img src="assets/logo.png" style="width: 3em;" alt="">
 				</a>
 				
 			<!--Code design only set to display once screen is 992px and above-->
-				<span class="d-none d-lg-block fs-2 px-4">codeup design</span>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="zoom-in d-none d-lg-block fs-2 px-4">codeup design</span>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					
 					<span id="collapse-btn">
 						<i class="bi bi-list"></i>
 					</span>
+					
 				</button>
 				
 			<!--Creating our hamburger menu-->
-				<div class="collapse navbar-collapse me-auto mb-2 mb-lg-0" id="navbarNav">
-					<ul class="navbar-nav ms-4">
+				<div class="collapse navbar-collapse me-auto mb-2 mb-lg-0" id="navbarNav"
+				aria-labelledby="mainNavigationLinks">
 					
+					<ul class="navbar-nav ms-4">
 						<li class="nav-item mx-2">
-							<a href="#" class="nav-link fs-5">Services</a>
+							<a href="#" class="zoom-in nav-link fs-5" >Services</a>
 						</li>
 						<li class="nav-item mx-2">
-							<a href="#" class="nav-link fs-5">Work</a>
+							<a href="#" class="zoom-in nav-link fs-5">Work</a>
 						</li>
 						<li class="nav-item mx-2 text-muted">
-							<a href="#" class="nav-link fs-5">Blog</a>
+							<a href="#" class="zoom-in nav-link fs-5">Blog</a>
 						</li>
 						<li class="nav-item mx-2">
-							<a href="#" class="nav-link fs-5">Contact</a>
+							<a href="tel:704-635-1576"  class="zoom-in nav-link fs-5">Contact</a>
 						</li>
 						</ul>
 					</div>
 				</div>
 		</nav>
 		
-		
 		<header class="container">
 			
-			<h1 class="display-1 text-center mt-4">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-			<h2 class="display-4 text-center mt-5">FROM PARK CITY, UTAH</h2>
+			<h1 id="main-heading" class="display-1 text-center mt-4">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+			<h2 id="main-subheading" class="display-4 text-center mt-5">FROM PARK CITY, UTAH</h2>
 			<div class="container mb-4 d-flex justify-content-center">
+				
 				<div class="row mt-4 mx-4">
 				
-				<!--All circles were given strict h,y to make them even, justified to center for circles to be centered
+				<!--All circles were given strict h,y to make them even,
+				justified to center for circles to be centered
 				in their divs. applies to all four circles-->
 				<div class="col-6 col-md-3 my-3 d-flex justify-content-center">
-					<span class="d-flex align-items-center justify-content-center circle
+					<span class="zoom-in d-flex align-items-center justify-content-center circle
 					badge border border-4 border-white rounded-circle text-white py-3 fs-5"
 					style="background-color: #E6563B;">
 						Design
 					</span>
 				</div>
 				<div class="col-6 col-md-3 my-3 d-flex justify-content-center">
-					<span class="d-flex align-items-center justify-content-center circle
+					<span class="zoom-in d-flex align-items-center justify-content-center circle
 					badge border border-4 border-white rounded-circle text-white py-3 fs-5"
 					style="background-color: #EB9C39;">
 						Develop
 					</span>
 				</div>
 				<div class="col-6 col-md-3 my-3 d-flex justify-content-center">
-					<span class="d-flex align-items-center justify-content-center circle
+					<span class="zoom-in d-flex align-items-center justify-content-center circle
 					badge border border-4 border-white rounded-circle text-white  py-3 fs-5"
 					style="background-color: #7CB06C">
 						Support
 					</span>
 				</div>
 				<div class="col-6 col-md-3 my-3 d-flex justify-content-center">
-					<span class="d-flex align-items-center justify-content-center circle
+					<span class="zoom-in d-flex align-items-center justify-content-center circle
 					badge border border-4 border-white rounded-circle text-white  py-3 fs-5"
 					style="background-color: #01ABA9">
 						Host
@@ -98,32 +103,32 @@
 			<hr class="d-none d-md-flex mx-5 my-5">
 		</header>
 
-		<div class="row">
+		<main class="row">
 			
 			<!-- Selected work container: -->
-			<div id="selected-work" name="selected-work"class="container col-12 col-lg-7 px-3 d-flex flex-column">
-			<p class="text-center pt-1 pb-5 mb-5">SELECTED WORK</p>
+			<section id="selected-work" name="selected-work" class="container col-12 col-lg-7 px-3 d-flex flex-column">
+				<p class="text-center pt-1 pb-5 mb-5">SELECTED WORK</p>
 
-			<!-- Row containing the 4 photos and text/circles underneath  -->
-			<div class="container flex-grow-1 d-flex align-items-center pb-5">
-				<div class="row">
-					<div class="col-12 col-md-6 mb-3">
+				<!-- Row containing the 4 photos and text/circles underneath  -->
+				<div class="container flex-grow-1 d-flex align-items-center pb-5">
+					<div class="row">
+						<div class="col-12 col-md-6 mb-3">
 
-						<!-- image with slightly darker gray border -->
-						<div class="img-border"><img src="assets/images/apple-ipad.jpg"></div>
+							<!-- image with slightly darker gray border -->
+							<div class="img-border"><img src="assets/images/apple-ipad.jpg"></div>
 
-						<!-- creating flex div for text/circles under img to be separated -->
-						<div class="d-flex justify-content-between align-items-center mx-1 mt-1">
-							<div>Featured Content</div>
+							<!-- creating flex div for text/circles under img to be separated -->
+							<div class="d-flex justify-content-between align-items-center mx-1 mt-1">
+								<div>Featured Content</div>
 
-							<!-- flex container containing the four small circles. they have their own class edited in
-							 custom.css file to keep them circles-->
-							<div class="d-flex">
-								<div class="d-flex align-items-center justify-content-center small-circle
-								rounded-circle fs-6 mx-1"
-								style="background-color: #E6563B;">
-									D
-								</div>
+								<!-- flex container containing the four small circles. they have their own class edited in
+							    custom.css file to keep them circles-->
+								<div class="d-flex">
+									<div class="d-flex align-items-center justify-content-center small-circle
+									rounded-circle fs-6 mx-1"
+									style="background-color: #E6563B;">
+										D
+									</div>
 								<div class="d-flex align-items-center justify-content-center small-circle
 								rounded-circle fs-6 mx-1"
 									 style="background-color: #EB9C39;">
@@ -142,7 +147,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 mb-3">
+						
+						<div class="col-12 col-md-6 mb-3">
 						<div class="img-border"><img src="assets/images/macbook.jpg"></div>
 						<div class="d-flex justify-content-between">
 							<p>Featured Content</p>
@@ -170,7 +176,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 mb-3">
+						<div class="col-12 col-md-6 mb-3">
 						<div class="img-border"><img src="assets/images/man.jpg"></div>
 						<div class="d-flex justify-content-between">
 							<p>Featured Content</p>
@@ -198,7 +204,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 mb-3">
+						<div class="col-12 col-md-6 mb-3">
 						<div class="img-border"><img src="assets/images/security.jpg"></div>
 						<div class="d-flex justify-content-between">
 							<p>Featured Content</p>
@@ -226,12 +232,15 @@
 							</div>
 						</div>
 					</div>
+					
+					</div>
+					
 				</div>
-			</div>
-		</div>
+			
+			</section>
 			
 			<!--The last Container-->
-			<div id="the-last" class="container d-none d-lg-block col-lg-4 pt-1">
+			<section id="the-last" class="container d-none d-lg-block col-lg-4 pt-1">
 				<p class="text-center mb-4 pb-3">THE LAST</p>
 				
 				<div class="row py-2">
@@ -260,8 +269,9 @@
 				   Aliquid aperiam beatae eius eligendi expedita nam nobis quam
 				   rem temporibus voluptas. Cum delectus neque possimus soluta.</p>
 				
-			</div>
-		</div>
+			</section>
+			
+		</main>
 
 
 

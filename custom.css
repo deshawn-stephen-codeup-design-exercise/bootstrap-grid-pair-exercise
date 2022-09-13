@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 body {
+    background-color: #F0F0F0;
     font-family: 'Abel', sans-serif;
     font-weight: 400;
 }
@@ -36,4 +37,11 @@ img {
 
 .img-border {
     border: .5em solid #e6e6e6;
+}
+
+.zoom-in{
+    transition: transform .2s;
+}
+.zoom-in:hover{
+    transform: scale(1.2);
 }
